@@ -1,0 +1,19 @@
+{
+  "name": "on-chain-oracle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ganache-cli -a 3 -d -m \"dial antenna tail zebra chef violin entry grass volcano tail sunny scrub\"",
+    "compile": "truffle compile",
+    "migrate": "truffle migrate"
+  },
+  "author": "Anis Snoussi",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "ganache-cli": "^6.1.2",
+    "truffle": "^4.1.11",
+    "truffle-hdwallet-provider": "^0.0.5"
+  }
+}
